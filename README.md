@@ -10,7 +10,7 @@ This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks an
 - `pdbs` folder which contains pdbs used for the proteins used in the manuscript.
 
 ## Usage
-To run the Notebooks, we suggest to open it in [Google Colaboratory](https://colab.research.google.com/), it can be open clicking [here](https://colab.research.google.com/github/KULL-Centre/papers/blob/main/2022/functional-sites-cagiada-et-al/Functional_site_model.ipynb).
+To run the Notebooks, we suggest to open it in [Google Colaboratory](https://colab.research.google.com/), it can be open clicking [here](https://colab.research.google.com/github/KULL-Centre/_2022_functional-sites-cagiada/blob/main/Functional_site_model.ipynb).
 To run the Notebook is necessary to follow different steps:
 1 Run the cells with the PRELIMINARY OPERATIONS prefix, this will install all the dependencies and load the required functions to run the predictor.
 2 Upload all the required input for your target protein running all the DATA PREPROCESSING cells. In particular in required to:
@@ -66,7 +66,7 @@ The source code and model's parameters are licensed under the permissive Apache 
 
 ### Bugs:
 
-For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/papers/tree/main/2022/functional-sites-cagiada-et-al) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500015v1.full).
+For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2022_functional-sites-cagiada) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500015v1.full).
 
 ### Citing this work:
 
