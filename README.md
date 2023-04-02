@@ -7,6 +7,7 @@ This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks an
 - `catboost_model` folder which contains the trained Catboost model.
 - `scores_GEMME` folder which contains the GEMME scores predicted for the he proteins used in the manuscript.
 - `scores_rosetta` folder which contains the rosetta stability predictions predicted scores for the proteins used in the manuscript.
+- `scores_RaSP` folder which contains the RaSP stability predictions predicted scores for the proteins used in the manuscript.
 - `pdbs` folder which contains pdbs used for the proteins used in the manuscript.
 
 ## Usage
