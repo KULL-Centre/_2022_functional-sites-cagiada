@@ -17,7 +17,7 @@ To run the Notebook is necessary to follow different steps:
 2 Upload all the required input for your target protein running all the DATA PREPROCESSING cells. In particular in required to:
   - add the target protein sequence
   - add the file with the thermodynamic stability measure (RaSP or Rosetta).
-  - add the file with the evolutionary conservation measure made (GEMME via custom file or webserver).
+  - add the file with the evolutionary conservation measure made (GEMME via custom file or webserver, MSA for GEMME can be created following this [notebook](https://colab.research.google.com/github/KULL-Centre/_2022_functional-sites-cagiada/blob/main/MSA_for_GEMMEwebserver.ipynb).
   - add the target protein structure (experimental or PDB) which can cover all the target sequence or part of it. 
 3 Run the cell 'Variant prediction and residue classification' to load the model and using it to make predictions with the provided input informations.
 4 Run the cell 'Show results'  to generate the calssification heatmaps for variants and residues.
