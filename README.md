@@ -9,9 +9,9 @@ This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks an
 - `scores_rosetta` folder which contains the rosetta stability predictions predicted scores for the proteins used in the manuscript.
 - `scores_RaSP` folder which contains the RaSP stability predictions predicted scores for the proteins used in the manuscript.
 - `scores_maves` folder which contains the public available MAVE data from different study to train the model and validate it in the manuscript.
-- 'score_dssp' folder which contains the measure from DSSP used in the manuscript to analyse complexes of proteins
+- `score_dssp` folder which contains the measure from DSSP used in the manuscript to analyse complexes of proteins
 - `pdbs` folder which contains pdbs used for the proteins used in the manuscript.
-- 'jupyter_notebooks_analysis_figures_paper' folder which contains the notebooks used to recreate most of the analysis and figures in the manuscript. N.B: Each notebook requires specific packages and data in input, all the data to run each notebook are provided in the other folders of this repository.
+- `jupyter_notebooks_analysis_figures_paper` folder which contains the notebooks used to recreate most of the analysis and figures in the manuscript. N.B: Each notebook requires specific packages and data in input, all the datasets to run each notebook are provided in the other folders of this repository.
 
 ## Functional Model Notebook
 ### Usage
