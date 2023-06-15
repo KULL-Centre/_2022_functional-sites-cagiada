@@ -8,10 +8,14 @@ This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks an
 - `scores_GEMME` folder which contains the GEMME scores predicted for the he proteins used in the manuscript.
 - `scores_rosetta` folder which contains the rosetta stability predictions predicted scores for the proteins used in the manuscript.
 - `scores_RaSP` folder which contains the RaSP stability predictions predicted scores for the proteins used in the manuscript.
+- `scores_maves` folder which contains the public available MAVE data from different study to train the model and validate it in the manuscript.
+- 'score_dssp' folder which contains the measure from DSSP used in the manuscript to analyse complexes of proteins
 - `pdbs` folder which contains pdbs used for the proteins used in the manuscript.
+- 'jupyter_notebooks_analysis_figures_paper' folder which contains the notebooks used to recreate most of the analysis and figures in the manuscript. N.B: Each notebook requires specific packages and data in input, all the data to run each notebook are provided in the other folders of this repository.
 
-## Usage
-To run the Notebooks, we suggest to open it in [Google Colaboratory](https://colab.research.google.com/), it can be open clicking [here](https://colab.research.google.com/github/KULL-Centre/_2022_functional-sites-cagiada/blob/main/Functional_site_model.ipynb).
+## Functional Model Notebook
+### Usage
+To run the Prediction Notebook, we suggest to open it in [Google Colaboratory](https://colab.research.google.com/), it can be open clicking [here](https://colab.research.google.com/github/KULL-Centre/_2022_functional-sites-cagiada/blob/main/Functional_site_model.ipynb).
 To run the Notebook is necessary to follow different steps:
 1 Run the cells with the PRELIMINARY OPERATIONS prefix, this will install all the dependencies and load the required functions to run the predictor.
 2 Upload all the required input for your target protein running all the DATA PREPROCESSING cells. In particular in required to:
@@ -23,8 +27,7 @@ To run the Notebook is necessary to follow different steps:
 4 Run the cell 'Show results'  to generate the calssification heatmaps for variants and residues.
 5 Run the cell 'Download predictions'   to download the files with summarised input features, predictions and figures.
 
-
-## File format:
+### File format:
 
 - The input data should follow, where possible, the same numeration of the uploaded query sequence. In case of different numeration, the pipeline will automatically align the two sequences (query and input file) and run the classification only on matching positions.
 
@@ -53,23 +56,23 @@ Examples of prediction files can be found in 'scores_rosetta/scores_GEMME' folde
 
 - The PBD file should follow the same numeration as the query structure. If this is not possible, the features evaluated on the PDB will be aligned to the query using the alignment between the two sequences.
 
-## Output:
+### Output:
 Running  the 'Download predictions' cell generates two output files, which can be downloaded as archive or display online in the colaboratory.
 - The first file (named: 'prefix_variant_features.txt') contain a summary of the input features for each variant of the target sequence.
 - The second file (named: 'prefix_variant_prediction.txt') contains the model predictions for each single variant of the target protein.
 - The third file (named: 'prefix_residue_prediction.txt') instead contains information about the predicted residue class and statistic about variant classes for each residue.
 - The folder 'figures' includes all the histogram and heatmaps generated during the run.
 
-## Extra
-### License:
+### Extra
+#### License:
 
 The source code and model's parameters are licensed under the permissive Apache Licence, Version 2.0.
 
-### Bugs:
+#### Bugs:
 
 For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2022_functional-sites-cagiada) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500015v1.full).
 
-### Citing this work:
+#### Citing this work:
 
 If you use our model please cite:
 
