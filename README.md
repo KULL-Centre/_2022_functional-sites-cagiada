@@ -1,6 +1,6 @@
 # Discovering functionally important sites in proteins
 
-This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks and used data for reproducing the work of the scientific paper _Discovering functionally important sites in proteins_ by M. Cagiada, S. Bottaro, S. Lindemose, S. M. Schenstrøm, A. Stein, R. Hartmann-Petersen and K. Lindorff-Larsen, DOI: to add
+This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks and used data for reproducing the work of the scientific paper _Discovering functionally important sites in proteins_ by M. Cagiada, S. Bottaro, S. Lindemose, S. M. Schenstrøm, A. Stein, R. Hartmann-Petersen and K. Lindorff-Larsen, 2023, Nature Communications 14 (1): 1–13. [https://doi.org/10.1038/s41467-023-39909-0](https://doi.org/10.1038/s41467-023-39909-0).
 
 ## Layout
 - `Functional_site_model.ipynb` Jupyter Notebook to process and reproduce all the prediction uses in the paper and make new predictions on novel data.
@@ -70,21 +70,28 @@ The source code and model's parameters are licensed under the permissive Apache 
 
 #### Bugs:
 
-For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2022_functional-sites-cagiada) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500015v1.full).
+For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2022_functional-sites-cagiada) or contact one of the listed authors in the connected [manuscript](https://doi.org/10.1038/s41467-023-39909-0).
 
 #### Citing this work:
 
 If you use our model please cite:
 
-Cagiada, M., Bottaro, S., Lindemose, S., Schenstrøm, S. M., Stein, A., Hartmann-Petersen, R., & Lindorff-Larsen, K. (2022). Discovering functionally important sites in proteins. bioRxiv, 2022-07.
-
+Cagiada, Matteo, Sandro Bottaro, Søren Lindemose, Signe M. Schenstrøm, Amelie Stein, Rasmus Hartmann-Petersen, and Kresten Lindorff-Larsen. 2023. “Discovering Functionally Important Sites in Proteins.” Nature Communications 14 (1): 1–13. https://doi.org/10.1038/s41467-023-39909-0.
 ```
-@article{cagiada2022discovering,
-  title={Discovering functionally important sites in proteins},
-  author={Cagiada, Matteo and Bottaro, Sandro and Lindemose, S{\o}ren and Schenstr{\o}m, Signe M and Stein, Amelie and Hartmann-Petersen, Rasmus and Lindorff-Larsen, Kresten},
-  journal={bioRxiv},
-  pages={2022--07},
-  year={2022},
-  publisher={Cold Spring Harbor Laboratory}
+
+@ARTICLE{Cagiada2023-pe,
+  title     = "Discovering functionally important sites in proteins",
+  author    = "Cagiada, Matteo and Bottaro, Sandro and Lindemose, S{\o}ren and
+               Schenstr{\o}m, Signe M and Stein, Amelie and Hartmann-Petersen,
+               Rasmus and Lindorff-Larsen, Kresten",
+  journal   = "Nat. Commun.",
+  publisher = "Nature Publishing Group",
+  volume    =  14,
+  number    =  1,
+  pages     = "1--13",
+  month     =  jul,
+  year      =  2023,
+  language  = "en"
 }
+
 ```
